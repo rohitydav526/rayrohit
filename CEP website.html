@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Management Awareness</title>
+    <style>
+        :root {
+            --primary-color: #2e7d32;
+            --secondary-color: #81c784;
+            --bg-color: #f4f9f4;
+            --text-color: #333;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #1b5e20;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0.2rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: var(--secondary-color);
+            color: #1b5e20;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .page-section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .card {
+            background: var(--bg-color);
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--primary-color);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 600px;
+        }
+        input, textarea, select {
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.75rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1b5e20;
+        }
+        .home-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Waste Management Awareness</h1>
+        <p>Building a cleaner, greener, and more sustainable future together.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#types">Types of Waste</a>
+        <a href="#tips">Management Tips</a>
+        <a href="#community">Community Awareness</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Page 1: Home Page -->
+        <section id="home" class="page-section">
+            <h2>Welcome to Waste Management Awareness</h2>
+            <p>Proper waste management is essential for building sustainable communities and preserving our planet for future generations. Explore our platform to learn how you can responsibly manage waste, protect the environment, and get involved locally[cite: 1].</p>
+            <!-- Embedded image referenced from source -->
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA...[cite: 1]" alt="Waste Management Awareness Hero Image" class="home-img">
+            <p><em>(Note: The raw JFIF image binary data provided in source[cite: 1] represents the visual banner for this home page.)</em></p>
+        </section>
+
+        <!-- Page 2: Types of Waste -->
+        <section id="types" class="page-section">
+            <h2>Types of Waste</h2>
+            <p>Understanding how to categorize waste is the first step toward effective recycling and disposal[cite: 1].</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Wet Waste</h3>
+                    <p>Organic kitchen waste, food scraps, vegetable peels, and garden waste that can be easily composted.</p>
+                </div>
+                <div class="card">
+                    <h3>Dry Waste</h3>
+                    <p>Recyclable materials including paper, cardboard, plastics, glass, metals, and packaging materials.</p>
+                </div>
+                <div class="card">
+                    <h3>E-Waste</h3>
+                    <p>Discarded electronic devices such as old computers, mobile phones, batteries, and television sets.</p>
+                </div>
+                <div class="card">
+                    <h3>Hazardous Waste</h3>
+                    <p>Toxic materials including chemicals, paints, medical waste, and fluorescent bulbs that require special handling.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 3: Waste Management Tips -->
+        <section id="tips" class="page-section">
+            <h2>Waste Management Tips</h2>
+            <p>Adopt these core practices to minimize your daily environmental footprint[cite: 1]:</p>
+            <ul>
+                <li><strong>Reduce:</strong> Minimize consumption by purchasing only what you need and avoiding single-use items[cite: 1].</li>
+                <li><strong>Reuse:</strong> Find alternative creative uses for items before throwing them away[cite: 1].</li>
+                <li><strong>Recycle:</strong> Sort your dry recyclables correctly so they can be processed into new goods[cite: 1].</li>
+                <li><strong>Composting:</strong> Turn your kitchen scraps and wet waste into nutrient-rich soil for plants[cite: 1].</li>
+                <li><strong>Plastic Reduction:</strong> Switch to reusable cloth bags, steel water bottles, and glass containers[cite: 1].</li>
+            </ul>
+        </section>
+
+        <!-- Page 4: Community Awareness -->
+        <section id="community" class="page-section">
+            <h2>Community Awareness</h2>
+            <p>Collective action makes a massive difference in keeping our neighborhoods clean and vibrant[cite: 1].</p>
+            <h3>Cleanliness Campaigns</h3>
+            <p>Participate in local neighborhood clean-up drives, tree-planting initiatives, and public park restoration projects[cite: 1].</p>
+            <h3>Ways to Participate in Your Community</h3>
+            <ul>
+                <li>Organize or join local workshops on segregation at source[cite: 1].</li>
+                <li>Partner with local residential associations to set up proper dry and wet waste collection bins[cite: 1].</li>
+                <li>Spread awareness via digital channels and community notice boards[cite: 1].</li>
+            </ul>
+        </section>
+
+        <!-- Page 5: Quiz -->
+        <section id="quiz" class="page-section">
+            <h2>Test Your Knowledge: Waste Management Quiz</h2>
+            <p>Check how well you understand eco-friendly practices[cite: 1]:</p>
+            <form onsubmit="event.preventDefault(); alert('Thank you for taking the quiz! Check your local guidelines to keep learning.');">
+                <label><strong>Q1. Which bin does a banana peel belong to?</strong></label>
+                <select required>
+                    <option value="">Select an answer</option>
+                    <option value="dry">Dry Waste</option>
+                    <option value="wet">Wet Waste</option>
+                    <option value="e">E-Waste</option>
+                </select>
+
+                <label><strong>Q2. Old smartphone batteries and chargers are classified as:</strong></label>
+                <select required>
+                    <option value="">Select an answer</option>
+                    <option value="hazardous">Hazardous/E-Waste</option>
+                    <option value="wet">Wet Waste</option>
+                </select>
+
+                <label><strong>Q3. What is the primary purpose of composting?</strong></label>
+                <select required>
+                    <option value="">Select an answer</option>
+                    <option value="burn">To burn waste safely</option>
+                    <option value="soil">To turn organic waste into nutrient-rich soil</option>
+                </select>
+
+                <button type="submit">Submit Answers</button>
+            </form>
+        </section>
+
+        <!-- Page 6: Contact Us -->
+        <section id="contact" class="page-section">
+            <h2>Contact Us</h2>
+            <p>Have questions, feedback, or suggestions for improving our community awareness campaigns? Send us a message[cite: 1]!</p>
+            <form onsubmit="event.preventDefault(); alert('Your message has been sent successfully. Thank you for your feedback!');">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="message">Feedback or Awareness Suggestions</label>
+                <textarea id="message" rows="4" placeholder="Share your suggestions..." required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+
+    </div>
+
+</body>
+</html>
